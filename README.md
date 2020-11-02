@@ -134,4 +134,4 @@ To-do list: for future development
 * Wow improvement to be done 2
 
 ## Contact
-Created by [@vgrljusic] - feel free to contact me!
+Created by linkedin.com/in/vgrljusic [@vgrljusic] - feel free to contact me!
