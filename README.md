@@ -98,7 +98,7 @@ When trying to use application without providing right credentials we are access
 
 2. #### Get JWT token
 
-In order to get JWT token for further authentication POST username:postgers password:postgres 
+In order to get JWT token for further authentication on http://localhost:8080/authenticate POST username:postgers password:postgres 
 
 ![image](https://user-images.githubusercontent.com/52451893/97894613-01764d80-1d33-11eb-979a-b7444896b520.png)
 
@@ -116,13 +116,13 @@ Example of fetching shops data
 
 5. #### GET items
 
-Example of fetching items data. Items are mapped to specific shop's customer 
+Example of fetching items data. Items are mapped to specific shop's customers 
 
 ![image](https://user-images.githubusercontent.com/52451893/97894839-47cbac80-1d33-11eb-9351-f5b1f1806990.png)
 
 6. #### POST items
 
-In order to insert new items in JSON choose one of available user (or insert new customer and then repeat)
+In order to insert new items in JSON object provide one of available user (or insert new customer and then repeat)
 
 ![image](https://user-images.githubusercontent.com/52451893/97894896-5d40d680-1d33-11eb-94ad-6c3d61e1f3a1.png)
 
