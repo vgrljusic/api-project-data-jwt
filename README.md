@@ -90,40 +90,56 @@ psql -U postgres --file project_db.sql
 
 ## How to use
 
-1. #### Failed authentication
+1. #### Authentication falied
+
+When trying to use application without providing right credentials we are access denied 
 
 ![image](https://user-images.githubusercontent.com/52451893/97893829-11416200-1d32-11eb-87d4-e3dcbca12951.png)
 
-2. #### Getting JWT token
+2. #### Get JWT token
+
+In order to get JWT token for further authentication POST username:postgers password:postgres 
 
 ![image](https://user-images.githubusercontent.com/52451893/97894613-01764d80-1d33-11eb-979a-b7444896b520.png)
 
-3. #### Providing JWT token
+3. #### Provide JWT token
+
+In Headers tab set KEY to Authorization and VALUE Bearer {jwt}
 
 ![image](https://user-images.githubusercontent.com/52451893/97894218-8d3baa00-1d32-11eb-9866-e7ee6956173a.png)
 
-4. #### Geting shops
+4. #### GET shops
+
+Example of fetching shops data
 
 ![image](https://user-images.githubusercontent.com/52451893/97894794-38e4fa00-1d33-11eb-9020-45788c2971fe.png)
 
-5. #### Geting items
+5. #### GET items
+
+Example of fetching items data. Items are mapped to specific shop's customer 
 
 ![image](https://user-images.githubusercontent.com/52451893/97894839-47cbac80-1d33-11eb-9351-f5b1f1806990.png)
 
-6. #### Posting items
+6. #### POST items
+
+In order to insert new items in JSON choose one of available user (or insert new customer and then repeat)
 
 ![image](https://user-images.githubusercontent.com/52451893/97894896-5d40d680-1d33-11eb-94ad-6c3d61e1f3a1.png)
 
-6. #### Puting items
+6. #### PUT items
+
+If you like to change some values, you can do that too (for shops, customers, items)
 
 ![image](https://user-images.githubusercontent.com/52451893/97894958-70ec3d00-1d33-11eb-9545-ca83d36dac3b.png)
 
-7. #### Deleting customers
+7. #### DELETE customers
+
+Removing data is also acceptable
 
 ![image](https://user-images.githubusercontent.com/52451893/97895018-82cde000-1d33-11eb-99c5-a2cf86f7bb3c.png)
 
 ## Code Examples of usage:
-With recived data use SQL querys to calculate distances bettween shop and customers
+With recived data use SQL querys to calculate distances bettween shops and customers
 
 ```
 SELECT ST_Distance(
@@ -134,13 +150,10 @@ ST_GeomFromText((SELECT geom FROM customer WHERE id = 'Valentino Grljušić'), 3
 
 ## Features
 List of features ready 
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list: for future development
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Read data
+* Create data
+* Update data
+* Delete data
 
 ## Contact
 Created by [@vgrljusic](https://www.linkedin.com/in/vgrljusic/) - feel free to contact me!
