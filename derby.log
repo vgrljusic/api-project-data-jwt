@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Oct 30 20:27:54 CET 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0175-7afb-08cf-000010fe3fa0 
+on database directory memory:/home/vgrljusic/Desktop/api-project-data/745e9373-8b30-4093-a23b-e24919b8633e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 
+Loaded from file:/home/vgrljusic/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=11.0.7+10-LTS
+user.dir=/home/vgrljusic/Desktop/api-project-data
+os.name=Linux
+os.arch=amd64
+os.version=5.4.0-52-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
