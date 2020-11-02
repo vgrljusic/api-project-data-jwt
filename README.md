@@ -28,8 +28,26 @@ Add more general information about project. What the purpose of the project is? 
 Failed authentication
 ![image](https://user-images.githubusercontent.com/52451893/97893829-11416200-1d32-11eb-87d4-e3dcbca12951.png)
 
+Getting JWT token
+![image](https://user-images.githubusercontent.com/52451893/97894613-01764d80-1d33-11eb-979a-b7444896b520.png)
 
+Providing JWT token
+![image](https://user-images.githubusercontent.com/52451893/97894218-8d3baa00-1d32-11eb-9866-e7ee6956173a.png)
 
+Geting shops
+![image](https://user-images.githubusercontent.com/52451893/97894794-38e4fa00-1d33-11eb-9020-45788c2971fe.png)
+
+Geting items
+![image](https://user-images.githubusercontent.com/52451893/97894839-47cbac80-1d33-11eb-9351-f5b1f1806990.png)
+
+Posting items
+![image](https://user-images.githubusercontent.com/52451893/97894896-5d40d680-1d33-11eb-94ad-6c3d61e1f3a1.png)
+
+Puting items
+![image](https://user-images.githubusercontent.com/52451893/97894958-70ec3d00-1d33-11eb-9545-ca83d36dac3b.png)
+
+Deleting customers
+![image](https://user-images.githubusercontent.com/52451893/97895018-82cde000-1d33-11eb-99c5-a2cf86f7bb3c.png)
 
 ## Setup and Installation
 Describe how to install / setup your local environement / add link to demo version.
