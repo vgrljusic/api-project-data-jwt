@@ -21,6 +21,7 @@ Add more general information about project. What the purpose of the project is? 
 * JSON Web Tokens - version 0.9.1
 * PostgreSQL - version 13.0.1
 * Apache Maven - version 3.6.0
+* Hibernate ORM - version 5.4.18
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
@@ -52,7 +53,7 @@ In the root application directory (api-project-data-jwt), SQL script file (proje
 ```
 cd Documents/api-project-data-jwt
 psql -U postgres --file project_setup.sql
-# promt to enter postgres user password (usually password is postgres)
+# promt to enter postgres user password (usuall password is postgres)
 ```
 
 4. #### (Optional) Update database configurations in application.properties
