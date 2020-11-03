@@ -114,25 +114,32 @@ Example of fetching shops data
 
 ![image](https://user-images.githubusercontent.com/52451893/97894794-38e4fa00-1d33-11eb-9020-45788c2971fe.png)
 
-5. #### GET items
+
+5. #### GET customers
+
+Example of fetching customers data. Items are mapped to specific shop 
+
+![image](https://user-images.githubusercontent.com/52451893/97971354-2a462380-1dc3-11eb-9ced-b60132bfef73.png)
+
+6. #### GET items
 
 Example of fetching items data. Items are mapped to specific shop's customers 
 
 ![image](https://user-images.githubusercontent.com/52451893/97894839-47cbac80-1d33-11eb-9351-f5b1f1806990.png)
 
-6. #### POST items
+7. #### POST items
 
 In order to insert new items in JSON object provide one of available user (or insert new customer and then repeat)
 
 ![image](https://user-images.githubusercontent.com/52451893/97894896-5d40d680-1d33-11eb-94ad-6c3d61e1f3a1.png)
 
-6. #### PUT items
+8. #### PUT items
 
 If you like to change some values, you can do that too (for shops, customers, items)
 
 ![image](https://user-images.githubusercontent.com/52451893/97894958-70ec3d00-1d33-11eb-9545-ca83d36dac3b.png)
 
-7. #### DELETE customers
+9. #### DELETE customers
 
 Removing data is also acceptable
 
